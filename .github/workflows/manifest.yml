@@ -1,14 +1,14 @@
 name: Update Manifest Header
 
 on:
-  pull_request:
-    branches: ["development"]
-    # Triggers on any push to the PR if these specific paths change.
-    paths:
-      - "data/RoveComm"
-      - "tools/RoveComm/parser.py"
-      - ".github/workflows/manifest.yml"
-  workflow_dispatch:
+  # pull_request:
+  #   branches: ["development"]
+  #   # Triggers on any push to the PR if these specific paths change.
+  #   paths:
+  #     - "data/RoveComm"
+  #     - "tools/RoveComm/parser.py"
+  #     - ".github/workflows/manifest.yml"
+  # workflow_dispatch:
 
 # Grant permission to push changes back to the repo.
 permissions:
