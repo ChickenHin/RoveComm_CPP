@@ -3,11 +3,11 @@ name: Generate API Docs
 on:
   # Runs workflow 'automatically' when a pushed
   # to the development branch.
-  push:
-    branches: ["development"]
-    # Don't apply gitignore rules, this allows us to push the generated docs.
-    paths-ignore:
-      - ".gitignore"
+  # push:
+  #   branches: ["development"]
+  #   # Don't apply gitignore rules, this allows us to push the generated docs.
+  #   paths-ignore:
+  #     - ".gitignore"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
