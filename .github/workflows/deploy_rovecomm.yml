@@ -1,10 +1,10 @@
 name: Build and Create RoveComm Release
 
 on:
-  push:
-    tags:
-      - "v*"
-  workflow_dispatch:
+  # push:
+  #   tags:
+  #     - "v*"
+  # workflow_dispatch:
 
 permissions:
   contents: write
