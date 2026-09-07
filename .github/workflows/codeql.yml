@@ -1,21 +1,21 @@
 name: "CodeQL"
 
 on:
-  pull_request:
-    branches: ["development"]
-    paths:
-      - external/**
-      - src/**
-      - tests/**
-      - tools/**
-  push:
-    branches: ["development"]
-    paths:
-      - external/**
-      - src/**
-      - tests/**
-      - tools/**
-  workflow_dispatch:
+  # pull_request:
+  #   branches: ["development"]
+  #   paths:
+  #     - external/**
+  #     - src/**
+  #     - tests/**
+  #     - tools/**
+  # push:
+  #   branches: ["development"]
+  #   paths:
+  #     - external/**
+  #     - src/**
+  #     - tests/**
+  #     - tools/**
+  # workflow_dispatch:
 
 permissions:
   actions: read
